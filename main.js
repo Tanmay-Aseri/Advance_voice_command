@@ -51,7 +51,7 @@ recognition.onresult = function(event) {
 
 function setup() {
  screen_width = window.innerWidth;
- screen_width = window.innerHeight;
+ screen_height = window.innerHeight;
  canvas = createCanvas(screen_width, screen_height-150, 75, 75 );
 }
 
